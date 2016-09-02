@@ -11,7 +11,7 @@
 
 ## 描述
 
-- 人有两种行为，存钱和取钱
+- 人有三种行为: 开账，存钱和取钱
 - 银行会根据时间发利息，年利率 4%
 - 真实时间的 2s == 1 年
 
@@ -21,14 +21,15 @@
 
 ## 实现
 
-- VirtualDay, Person, Bank, FreshBankExample(主类)四个类分别实现
+- VirtualTime, Person, Bank, FreshBankExample(主类)四个类分别实现
 
 ## 分工
 
 因为每个类都比较简单，可以用抽签决定工作
 
 抽签结果如下:
- - zebinzou       FreshBankExample(主类)
- - zhenxiongwu    Person
- - yubinliu       VirtualDay
- - Donlle Guo     Bank
+  - zebinzou　　　　　FreshBankExample(主类)
+  - zhenxiongwu　　　　Person
+  - yubinliu　　　　　VirtualTime
+  - Donlle Guo　　　　Bank
+
