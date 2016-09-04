@@ -38,3 +38,5 @@
 javac Example.java -encoding utf-8
 java Example
 ```
+
+结果输出如果有中文乱码，试着把 git bash 的 option 设置 Text 的编码为 GBK
