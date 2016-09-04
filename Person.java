@@ -13,7 +13,7 @@ public class Person{
         bank.setAccount(this, money);
     }
 
-    public double chackAccount(Bank bank){
+    public double checkAccount(Bank bank){
         return bank.getAccount(this);
     }
 
