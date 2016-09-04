@@ -1,5 +1,3 @@
-package virtualYear;
-
 class VirtualYear {
     
     public void yearPast(int year) {
