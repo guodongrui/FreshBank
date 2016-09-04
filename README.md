@@ -3,9 +3,8 @@
 ## 目的
 
 - Github, Git练手
-  + 理解 Git 使用方法
-  + 理解 Git 的 pull request
-  + 理解 Github 的用途
+  + 理解 Git 命令
+  + 理解 Github 的 pull request
 
 - 为软件工程课程项目作准备
 
@@ -21,15 +20,21 @@
 
 ## 实现
 
-- VirtualTime, Person, Bank, FreshBankExample(主类)四个类分别实现
+- VirtualYear, Person, Bank, Example(主类)四个类分别实现
 
 ## 分工
 
 因为每个类都比较简单，可以用抽签决定工作
 
 抽签结果如下:
-  - zebinzou　　　　　　FreshBankExample(主类)
+  - zebinzou　　　　　　Example(主类)
   - zhenxiongwu　　　　Person
-  - yubinliu　　　　　　VirtualTime
+  - yubinliu　　　　　　VirtualYear
   - Donlle Guo　　　　　Bank
 
+## 编译运行
+
+```
+javac Example.java -encoding utf-8
+java Example
+```
