@@ -29,6 +29,12 @@
 抽签结果如下:
   - zebinzou　　　　　　Example(主类)
   - zhenxiongwu　　　　Person
-  - yubinliu　　　　　　VirtualTime
+  - yubinliu　　　　　　VirtualYear
   - Donlle Guo　　　　　Bank
 
+## 编译运行
+
+```
+javac Example.java -encoding utf-8
+java Example
+```

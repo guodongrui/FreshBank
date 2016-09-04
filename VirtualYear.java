@@ -1,6 +1,6 @@
-class VirtualYear {
+public class VirtualYear {
     
-    public void yearPast(int year) {
+    public void yearPass(int year) {
         year *= 2000;
         try {
             Thread.sleep(year);

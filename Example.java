@@ -1,5 +1,5 @@
-public class Example{
-    public static void main(String args[]){
+public class Example {
+    public static void main(String args[]) {
         String personName1 = "甲";
         String personName2 = "乙";
         String personName3 = "丙";
@@ -16,15 +16,16 @@ public class Example{
         c.toSetAccount(bank, 100);
 
         System.out.println("第 0 年");
+
         VirtualYear vr = new VirtualYear();
-        vr.yearPast(1);
+        vr.yearPass(1);
         bank.addInterest(1);
         System.out.println("一年过去...");
 
         a.saveMoney(bank, 50);
         b.drawMoney(bank, 50);
 
-        vr.yearPast(1);
+        vr.yearPass(1);
         bank.addInterest(1);
         System.out.println("一年又过去...");
 
