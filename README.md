@@ -30,7 +30,7 @@
   - zebinzou　　　　　　Example(主类)
   - zhenxiongwu　　　　Person
   - yubinliu　　　　　　VirtualYear
-  - Donlle Guo　　　　　Bank
+  - guodongrui　　　　　Bank
 
 ## 编译运行
 
